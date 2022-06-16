@@ -1,0 +1,39 @@
+.msg_count{
+               background-color: #00acac;
+               border-radius: 100%;
+               padding: 1px 5px;
+               margin: 0px 0 0 -5px;
+}
+
+.mail_count{
+               background-color: #00acac;
+               border-radius: 100%;
+               padding: 1px 4px;
+               margin: 0px 0 0 -5px;
+               font-size: 0.7rem;
+             
+}
+
+.sidebar_user_div{
+               background-image:url(images/cover-sidebar-user.jpg); display: block; background-size: cover; background-repeat: no-repeat ;
+               
+               
+}
+
+.overview_ul{
+                margin: 0; padding: 0;
+               list-style: none;
+}
+.overview_ul li{
+               font-size: 16px; ; margin: 0; position: relative;    padding: 0 0 0 15px;font-size: 0.7rem;
+}
+
+.red_bullet_points li::before{
+               position: absolute;
+               content: '';
+               height: 8px; width: 8px;
+               background-color: #DC2656;
+               left: 0;
+               top: 4px;
+               border-radius: 100%;
+}
